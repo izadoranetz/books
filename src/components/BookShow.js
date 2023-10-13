@@ -1,3 +1,3 @@
-export function BookShow() {
-    return <div>BookShow</div>
+export function BookShow({book}) {
+    return <div className="book-show">{book.title}</div>
 }
